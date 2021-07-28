@@ -54,6 +54,7 @@ set(OT_PLATFORM_NETIF ON CACHE BOOL "enable platform netif" FORCE)
 set(OT_PLATFORM_UDP ON CACHE BOOL "enable platform UDP" FORCE)
 set(OT_UDP_FORWARD OFF CACHE BOOL "diable udp forward" FORCE)
 set(OT_BACKBONE_ROUTER_DUA_NDPROXYING ${OTBR_DUA_ROUTING} CACHE BOOL "Configure DUA ND Proxy feature in OpenThread" FORCE)
+set(OT_SPINEL_RESET_CONNECTION on CACHE BOOL "reset connection after hard resetting RCP(USB CDC ACM) device" FORCE)
 
 if (OTBR_SRP_ADVERTISING_PROXY)
     set(OT_SRP_SERVER ON CACHE BOOL "enable SRP server" FORCE)

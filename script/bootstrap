@@ -41,7 +41,8 @@ install_packages_apt()
         iproute2 \
         iputils-ping \
         libreadline-dev \
-        libncurses-dev
+        libncurses-dev \
+        libudev-dev
 
     sudo apt-get install --no-install-recommends -y build-essential ninja-build cmake
 
